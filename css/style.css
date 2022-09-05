@@ -1,0 +1,389 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500;600;700;800;900&display=swap');
+/* Variable  */
+:root{
+    --primary-color: #f59812;
+    --secondary-color: rgb(238, 228, 215, 0.8);
+    --heading-color: #201b17;
+    --text-color: #000;
+    --border-color: #c9c9c9;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Barlow', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #000;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
+/* Common Css */
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.btn {
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    padding: 0.3rem 3rem;
+    font-size: 1rem;
+    border-radius: 15px;
+}
+.flex{
+    display: flex;
+}
+.flex-basis30{
+    flex-basis: 30%;
+}
+.align-center{
+    align-items: center;
+}
+.justify-center{
+    justify-content: center;
+}
+.justify-end{
+    justify-content: end;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.text-right{
+    text-align: right;
+}
+.floor-para-sm{
+    display: none;
+}
+.mb-1{
+    margin-bottom: 3px;
+}
+.mt-5{
+    margin-top: 25px;
+}
+.uppercase{
+    text-transform: uppercase;
+}
+/* ========== Header Start ========== */
+.navbar{
+}
+.navbar .logo img{
+    width: 110px;
+}
+.navbar .navmenu{}
+.navbar .navmenu li{
+    display: inline-block;
+    padding: 15px 0;
+    margin-right: -3px;
+}
+.navbar .navmenu li:hover{
+    background: var(--primary-color);
+    padding: 15px 0;
+}
+.navbar .navmenu li a{
+    color: var(--heading-color);
+    font-size: 1rem;
+    font-family: var(--font-family);
+    padding: 0px 5px;
+    border-right: 1px solid var(--border-color);
+}
+.navbar .navmenu li:hover > a{
+    color: #fff;
+}
+.number a{
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--primary-color);
+}
+/* ========== Header End ========== */
+/* ========== Hero Start ========== */
+#hero{
+    background: url(../images/Banner-top.jpg) no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+.hero-text{
+    width: 800px;
+    margin: 0 auto;
+    padding-top: 200px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+.hero-text .hero-head{
+    background: rgb(0, 0, 0, 0.7);
+    padding: 5px 0px;
+    color: var(--primary-color);
+    margin-bottom: 30px;
+}
+.hero-text .hero-head h1{
+    font-size: 4.5rem;
+    line-height: 1.2;
+    margin-bottom: -20px;
+    margin-top: -10px;
+    font-weight: 900;
+}
+.hero-text .hero-head h3{
+    font-size: 2.1rem;
+    font-weight: 700;
+}
+.hero-text p{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color:#201b17;
+}
+/* ========== Hero End ========== */
+/* ========== Goal Section End ========== */
+#goal-section{}
+.section-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px 0;
+}
+.section-header .title-icon{
+    width: 50px;
+    padding-bottom: 10px;
+}
+.section-header .title-line{
+    width: 200px;
+}
+.section-title{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.section-title h3{
+    font-size: 1.6rem;
+    line-height: 0.7;
+}
+.section-title p{
+    font-size: 1.3rem;
+    line-height: 1.2;
+    margin: 20px 0;
+}
+.btn-primary{
+    background: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 600;
+    transition: all 0.5s ease;
+}
+.btn-primary:hover{
+    background: transparent;
+    color: #000;
+    border: 1px solid var(--primary-color);
+}
+.floor-section{}
+.floor-top{
+    background: url(../images/Photo1.jpg) no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.floor-text{
+    background: var(--secondary-color);
+    width: 50%;
+    padding: 50px 100px 30px 100px;
+}
+.floor-text h1{
+    font-size: 1.6rem;
+    font-weight: 900;
+}
+.floor-text img{
+    width: 50px;
+}
+.floor-text p{
+    font-size: 1.2rem;
+    margin: 10px 0 80px 0;
+}
+.btn-secondary{
+    background: #201b17;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 600;
+    transition: all 0.5s ease;
+    margin-bottom: 30px;
+}
+.btn-secondary:hover{
+    background: var(--primary-color);
+}
+.floor-middle{
+    background: url(../images/Photo2.jpg) no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.floor-bottom{
+    background: url(../images/Photo3.jpg) no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.floor-attention{
+    background: var(--primary-color);
+    padding: 20px 0;
+    text-align: center;
+}
+.floor-attention img{
+    width: 80px;
+}
+.floor-attention h3{
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+/* ========== Goal Section End ========== */
+/* ========== Services Section End ========== */
+#service-section{
+    margin-bottom: 100px;
+}
+.services{
+    flex-basis: 32%;
+    text-align: center;
+    position: relative;
+    height: 370px;
+}
+.service{
+    position: relative;
+    overflow: hidden;
+}
+.service img{
+    width: 100%;
+}
+.layer{
+    background: var(--primary-color);
+    width: 100%;
+    height: 10%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    transition: all 0.5s ease;
+}
+.layer:hover{
+    height: 50%;
+}
+.layer h3{
+    width: 100%;
+    font-size: 1.6rem;
+    line-height: 1;
+    color: #fff;
+    bottom: 30px;
+    left: 10px;
+    position: absolute;
+    text-align: left;
+}
+.services p{
+    padding: 10px 20px;
+}
+.services .sm-btn{
+    display: inline-block;
+    background: #201b17;
+    padding: 0.3rem 0.8rem;
+    border-radius: 25px;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: all 0.5s ease;
+    margin-bottom: 30px;
+    position: absolute;
+    bottom: 0;
+    left: 35%;
+}
+.sm-btn:hover{
+    background: var(--primary-color);
+}
+/* ========== Services Section End ========== */
+/* ========== Other Services Section End ========== */
+.other-services {
+    flex-basis: 49.9%;
+    background: #e5dbce;
+    padding: 20px;
+}
+.other-services .other-service-img{
+    width: 100px;
+}
+.other-services-text img{
+    width: 50px;
+}
+.flex-basis45{
+    flex-basis: 45%;
+}
+.other-services-text{
+    position: relative;
+}
+.other-services-text .sm-btn{
+    display: inline-block;
+    background: #201b17;
+    padding: 0.3rem 1.5rem;
+    border-radius: 25px;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: all 0.5s ease;
+    margin-bottom: 30px;
+    position: absolute;
+    bottom: 0;
+    left: 35%;
+}
+.other-services-text .sm-btn:hover{
+    background: var(--primary-color);
+}
+/* ==========Other Services Section End ========== */
+/* ==========Certified Section End ========== */
+.certified-content{
+    flex-basis: 30%;
+}
+.certified-content-img{
+    position: relative;
+}
+.certified-content-img img{
+    width: 100%;
+}
+.certified-content-img h1{
+    font-size: 1.4rem;
+    color: #fff;
+    position: absolute;
+    bottom: 20px;
+    left: 15%;
+}
+.certified-list{
+    padding: 10px 50px;
+}
+.certified-list ul li{
+    display: flex;
+    align-items: center;
+    line-height: 1;
+    margin-bottom: 10px;
+}
+.certified-list ul li img{
+    width: 20px;
+    margin-right: 5px;
+}
+.certified-list{
+    position: relative;
+    height: 300px;
+}
+.certified-list .sm-btn{
+    display: inline-block;
+    background: var(--primary-color);
+    padding: 0.3rem 2rem;
+    border-radius: 25px;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: all 0.5s ease;
+    margin-bottom: 30px;
+    position: absolute;
+    bottom: 0;
+    left: 35%;
+}
+.certified-list .sm-btn:hover{
+    background: #201b17;
+}
+/* ==========Certified Section End ========== */
