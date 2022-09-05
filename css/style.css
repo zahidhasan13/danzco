@@ -387,3 +387,46 @@ a{
     background: #201b17;
 }
 /* ==========Certified Section End ========== */
+/* ==========Review Section Start ========== */
+.review-section{
+    border-top: 1px solid var(--border-color);
+}
+.section-title h4{
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+#real-review{
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(../images/review-banner.jpg) no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#real-review img{
+    width: 50px;
+}
+.review{
+    flex-basis: 25%;
+    border: 3px solid var(--primary-color);
+    border-radius: 25px;
+    padding: 20px 10px;
+    color: #fff;
+    position: relative;
+    height: 430px;
+    text-align: center;
+}
+.review-icon{
+    text-align: center;
+}
+.review-icon img{
+    width: 30px;
+    position: absolute;
+    top: -25px;
+}
+.review p{
+    margin-bottom: 50px;
+}
+.review h1{
+    color: var(--primary-color);
+}
+/* ==========Review Section End ========== */
