@@ -108,9 +108,11 @@ a{
     display: inline-block;
     padding: 15px 0;
     margin-left: -3px;
+    margin-right: -3px;
 }
-#navmenu ul li img{
+#navmenu ul img{
     width: 1px;
+    height: 15px;
 }
 #navmenu ul li:hover{
     background: var(--primary-color);
@@ -432,6 +434,40 @@ a{
     padding-top: 80px;
     padding-bottom: 50px;
 }
+.slide-container{
+    max-width: 1120px;
+    width: 100%;
+    padding: 40px 0;
+  }
+  .slide-content{
+    margin: 0 40px;
+    overflow: hidden;
+    border-radius: 25px;
+  }
+  .swiper-navBtn{
+    color: var(--primary-color);
+    transition: color 0.3s ease;
+  }
+  .swiper-navBtn:hover{
+    color: var(--primary-color);
+  }
+  .swiper-navBtn::before,
+  .swiper-navBtn::after{
+    font-size: 35px;
+  }
+  .swiper-button-next{
+    right: 0;
+  }
+  .swiper-button-prev{
+    left: 0;
+  }
+  .swiper-pagination-bullet{
+    background-color: #f59612b2;
+    opacity: 1;
+  }
+  .swiper-pagination-bullet-active{
+    background-color: var(--primary-color);
+  }  
 .review{
     flex-basis: 30%;
     border: 3px solid var(--primary-color);
@@ -444,7 +480,7 @@ a{
 }
 .review-icon{
     position: absolute;
-    top: -40px;
+    top: 10px;
     left: 45%;
 }
 .review-icon img{
@@ -453,6 +489,7 @@ a{
 }
 .review p{
     margin-bottom: 50px;
+    margin-top: 50px;
 }
 .review h1{
     color: var(--primary-color);
