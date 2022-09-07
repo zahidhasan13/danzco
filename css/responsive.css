@@ -384,3 +384,57 @@
         text-align: center;
     }
 }
+
+@media (max-width:425px){
+    .hero-text{
+        width: 350px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .hero-text .hero-head{
+        padding: 8px 0px;
+    }
+    .hero-text .hero-head h1{
+        font-size: 1.5rem;
+        margin-bottom: 0px;
+    }
+    .hero-text .hero-head h3{
+        font-size: 0.7rem;
+    }
+    .hero-text p{
+        font-size: 0.6rem;
+    }
+    .floor-text{
+        padding: 10px;
+    }
+    .floor-attention img{
+        width: 40px;
+    }
+    .floor-attention h3{
+        font-size: 1rem;
+        font-weight: 800;
+    }
+    .services{
+        height: 300px;
+    }
+    .certified-list{
+        height: 300px;
+        padding: 10px;
+    }
+    .certified-list .sm-btn{
+        left: 0;
+    }
+    .address .footer-logo{
+        width: 60px;
+    }
+    .footer-text a{
+        font-size: 0.7rem;
+    }
+    .footer-text p{
+        font-size: 0.6rem;
+        line-height: 1;
+    }
+    .footer-bottom p{
+        font-size: 0.7rem;
+    }
+}
