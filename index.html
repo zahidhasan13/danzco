@@ -31,26 +31,33 @@
                             <img src="./icons/Logo.png" alt="Logo">
                         </a>
                     </div>
-                    <ul class="navmenu">
-                        <li><a href="">Home</a></li>
-                        <li><a href="">Installation</a></li>
-                        <li><a href="">Restoration</a></li>
-                        <li><a href="">Color Chart </a></li>
-                        <li><a href="">Floor Types</a></li>
-                        <li><a href="">Wood Species</a></li>
-                        <li><a href="">Gallery</a></li>
-                        <li><a href="">About</a></li>
-                        <li><a href="">FAQ</a></li>
-                        <li><a href="">Helpful Tips</a></li>
-                        <li><a href="">Contact</a></li>
-                    </ul>
+                    <div id="navmenu">
+                        <ul>
+                            <li id="mobile-cross" onclick="closeMenu()"><a href="javascript:void(0)"><i class="fa-solid fa-xmark"></i></a></li>
+                            <li><a href="">Home</a></li>
+                            <li><a href="">Installation</a></li>
+                            <li><a href="">Restoration</a></li>
+                            <li><a href="">Color Chart </a></li>
+                            <li><a href="">Floor Types</a></li>
+                            <li><a href="">Wood Species</a></li>
+                            <li><a href="">Gallery</a></li>
+                            <li><a href="">About</a></li>
+                            <li><a href="">FAQ</a></li>
+                            <li><a href="">Helpful Tips</a></li>
+                            <li><a href="">Contact</a></li>
+                            <li class="mobile-menu-number"> <a href="tel:+(410) 788-5919">(410) 788-5919</a></li>
+                        </ul>
+                    </div>
+                    <div id="mobile-menu">
+                        <i class="fa-solid fa-bars" onclick="openMenu()"></i>
+                    </div>
                     <div class="number">
                         <a href="tel:+(410) 788-5919">(410) 788-5919</a>
                     </div>
                 </div>
             </div>
         </nav>
-        <div id="hero" class="contaoner-xxl">
+        <div id="hero" class="container-xl">
             <div class="hero-text">
                 <div class="hero-head">
                     <h1>HARDWOOD FLOORING</h1>
@@ -75,13 +82,14 @@
                 After the dust settles, we promise you will love your new floor.</p>
                 <a href="#" class="btn btn-primary">Email Us</a>
         </div>
-        <div class="floor-section">
+        <div class="floor-section container-xl">
             <div class="floor-top">
                 <div class="floor-text">
                         <h1>Hardwood Floor<br>Installation</h1>
                     <img src="./icons/Line-short.png" alt="" class="floor-line">
                     <p class="floor-para-md">Due to their durability and longevity, homeowners <br> prefer installing hardwood floors in every room of <br>their home.<br>
                         From unfinished to prefinished floors,<br>
+                        <!-- Mobile text -->
                         including but not limited to, oak, pine, cherry and<br> maple. We can install all types of hardwood flooring.</p>
                     <p class="floor-para-sm">Due to their durability and longevity, homeownersprefer installing hardwood floors in every room oftheir home. From unfinished to prefinished floors, including but not limited to, oak, pine, cherry and maple. We can install all types of hardwood flooring.</p>
                         <div class="text-right">
@@ -96,6 +104,7 @@
                     <p class="floor-para-md">Due to their durability and longevity, homeowners <br> prefer installing hardwood floors in every room of <br>their home.<br>
                         From unfinished to prefinished floors,<br>
                         including but not limited to, oak, pine, cherry and<br> maple. We can install all types of hardwood flooring.</p>
+                        <!-- Mobile text -->
                         <p class="floor-para-sm">Due to their durability and longevity, homeownersprefer installing hardwood floors in every room oftheir home. From unfinished to prefinished floors, including but not limited to, oak, pine, cherry and maple. We can install all types of hardwood flooring.</p>
                         <div class="text-right">
                             <a href="#" class="btn btn-secondary">Learn More</a>
@@ -108,6 +117,7 @@
                     <img src="./icons/Line-short.png" alt="" class="floor-line">
                     <p class="floor-para-md">Danzco we can sand and refinish your hardwood <br>floors to bring your floors back to life. We have a <br>range of floor stains that start from the natural color <br>of the wood, light, medium and dark colors. Our<br> staining professionals work with our customers<br>applying samples to achieve the final stain/color<br>
                         desired by our customer.</p>
+                        <!-- Mobile text -->
                         <p class="floor-para-sm">Due to their durability and longevity, homeownersprefer installing hardwood floors in every room oftheir home. From unfinished to prefinished floors, including but not limited to, oak, pine, cherry and maple. We can install all types of hardwood flooring.</p>
                         <div class="text-right">
                             <a href="#" class="btn btn-secondary">Learn More</a>
@@ -115,7 +125,7 @@
                 </div>
             </div>
         </div>
-        <div class="floor-attention flex justify-center">
+        <div class="floor-attention flex justify-center container-xl">
             <img src="./icons/Icon-Attention.png" alt="">
             <h3>Our #1 Goal Is To Deliver A Beautiful<br>Wood Floor In Your Home Or Business</h3>
         </div>
@@ -281,37 +291,35 @@
             <h3 class="uppercase">Real Reviews</h3>
             <h4>ACTUAL CUSTOMERS RESPOND!</h4>
         </div>
-        <div id="real-review">
+        <div id="real-review" class="container-xl">
             <div class="container flex justify-between align-center">
-                <img src="./icons/Pic-arrow-left.png" alt="">
-                <div class="review">
-                    <div class="review-icon">
-                        <img src="./icons/Icon-star.png" alt="">
-                    </div>
-                    <p>Highly recommend Danzco Hardwood Floors! We replaced 20 year old carpet in our basement with luxury vinyl plank flooring. Couldn't be happier with the end result. Grace and Dan, along with their crew, were very easy to work with. Great company and great product at a great price!</p>
-                    <h1>Donna</h1>
-                </div>
-                <div class="review">
-                    <div class="review-icon">
-                        <img src="./icons/Icon-star.png" alt="">
-                    </div>
-                    <p>We used Danzco to refinish our hardwood floor before listing our property on the market. They were a pleasure to work with and accommodated our schedules without any issues. Once refinished, the floors have never looked better and our friends and family can’t believe that it’s the same wood floor! Before hiring Danzco, we checked out 4 flooring companies and we found that Danzco had the best value and ease to work with. Thank you Danzco!</p>
-                    <h1>Donna</h1>
-                </div>
-                <div class="review">
-                    <div class="review-icon">
-                        <img src="./icons/Icon-star.png" alt="">
-                    </div>
-                    <p>Danzco did an amazing job on our hardwood floors. We had a our living room and two flights of stairs updated to hardwood and it was completed in two days. They did a great job and I highly recommend Danzco!</p>
-                    <h1>Donna</h1>
-                </div>
-                <img src="./icons/Pic-arrow-right.png" alt="">
+                        <div class="review">
+                            <div class="review-icon">
+                                <img src="./icons/Icon-star.png" alt="">
+                            </div>
+                            <p>Highly recommend Danzco Hardwood Floors! We replaced 20 year old carpet in our basement with luxury vinyl plank flooring. Couldn't be happier with the end result. Grace and Dan, along with their crew, were very easy to work with. Great company and great product at a great price!</p>
+                            <h1>Donna</h1>
+                        </div>
+                        <div class="review">
+                            <div class="review-icon">
+                                <img src="./icons/Icon-star.png" alt="">
+                            </div>
+                            <p>We used Danzco to refinish our hardwood floor before listing our property on the market. They were a pleasure to work with and accommodated our schedules without any issues. Once refinished, the floors have never looked better and our friends and family can’t believe that it’s the same wood floor! Before hiring Danzco, we checked out 4 flooring companies and we found that Danzco had the best value and ease to work with. Thank you Danzco!</p>
+                            <h1>Donna</h1>
+                        </div>
+                        <div class="review">
+                            <div class="review-icon">
+                                <img src="./icons/Icon-star.png" alt="">
+                            </div>
+                            <p>Danzco did an amazing job on our hardwood floors. We had a our living room and two flights of stairs updated to hardwood and it was completed in two days. They did a great job and I highly recommend Danzco!</p>
+                            <h1>Donna</h1>
+                        </div>
             </div>
         </div>
     </section>
     <!-- Review Section End -->
     <!-- Footer Section Start -->
-    <footer>
+    <footer class="container-xl">
         <div class="container">
             <div class="footer-content flex align-start justify-between">
                 <div class="address flex-basis30">
@@ -328,7 +336,7 @@
                 </div>
                 <div class="brand flex flex-basis30">
                     <img src="./icons/Logo-footer-epa.png" alt="">
-                    <img src="./icons/Logo-footer-nwfa.png" alt="" class="mt-6">
+                    <img src="./icons/Logo-footer-nwfa.png" alt="" class="mt-6 brand-img-2">
                 </div>
                 <div class="footer-menu flex-basis30">
                     <div class="footer-nav flex justify-between">
@@ -368,7 +376,6 @@
         </div>
     </footer>
     <!-- Footer Section End -->
-
 
 
 

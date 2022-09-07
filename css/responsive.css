@@ -1,39 +1,374 @@
-@media (min-width: 576px) {
+@media (min-width:1441px){
     .container {
-        max-width: 540px;
+        width: var(--container-width-xl);
+        margin: 0 auto;
+    }
+    .container-xl{
+        width: var(--container-width-xl);
+        margin: 0 auto;
+    }
+    .navbar{
+        padding: 0 20px;
+    }
+    .review{
+        flex-basis: 32%;
+    }
+}
+@media (min-width:2561px){
+    .container {
+        width: var(--container-width-xl);
+        margin: 0 auto;
+    }
+    .container-xl{
+        width: var(--container-width-xl);
         margin: 0 auto;
     }
 }
-@media (min-width: 768px) {
-    .container {
-        max-width: 720px;
-        margin: 0 auto;
+@media (max-width:1440px){
+    #navmenu ul li a{
+        font-size: 1rem;
     }
 }
-@media (min-width: 992px) {
+@media (max-width:1024px){
     .container {
-        max-width: 960px;
+        width: var(--container-width-sm);
         margin: 0 auto;
+    }
+    .navbar .logo img{
+        width: 100px;
+    }
+    #navmenu ul li a{
+        font-size: 0.8rem;
+    }
+    .other-services-text{
+        height: 250px;
     }
 }
-@media (min-width: 1200px) {
+@media (max-width:768px){
     .container {
-        max-width: 1152px;
+        width: var(--container-width-sm);
         margin: 0 auto;
     }
+    .navbar{
+        padding: 10px 0;
+    }
+    #navmenu{
+        background: #fff;
+        position: fixed;
+        top: 0;
+        right: 0;
+        height: 700px;
+        width: 200px;
+        padding: 0;
+        right: -280px;
+        transition: all 0.6s ease;
+    }
+    #navmenu ul{
+        text-align: left;
+        margin-left: 20px;
+    }
+    #navmenu ul li{
+        display: block;
+        padding: 5px 0;
+    }
+    #navmenu ul .mobile-menu-number{
+        display: block;
+    }
+    #navmenu ul .mobile-menu-number a{
+        font-weight: 800;
+        color: var(--primary-color);
+    }
+    #navmenu ul li:hover{
+        background: transparent;
+        padding: 5px 0;
+    }
+    #navmenu ul li a{
+        font-size: 20px;
+        border: none;
+    }
+    #navmenu ul li:hover > a{
+        color: #000;
+    }
+    .fa-xmark{
+        font-size: 20px;
+    }
+    #mobile-menu{
+        padding: 0px;
+        font-size: 20px;
+    }
+    .fa-bars{
+        margin-left: 10px;
+    }
+    #navmenu ul #mobile-cross{
+        margin-top: 20px;
+        color: var(--primary);
+    }
+    #navmenu ul #mobile-cross, #mobile-menu{
+        display: block;
+        text-align: left;
+    }
+    .number{
+        display: none;
+    }
+    .hero-text{
+        width: 700px;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    .hero-text .hero-head h1{
+        font-size: 3.5rem;
+        line-height: 1.2;
+        margin-bottom: -15px;
+        margin-top: -10px;
+        font-weight: 900;
+    }
+    .hero-text .hero-head h3{
+        font-size: 1.6rem;
+    }
+    .hero-text p{
+        font-size: 1rem;
+    }
+    .floor-para-md{
+        display: none;
+    }
+    .floor-para-sm{
+        display: block;
+    }
+    .section-header .title-icon{
+        width: 40px;
+        padding-bottom: 10px;
+    }
+    .section-header .title-line{
+        width: 150px;
+    }
+    .section-title h3{
+        font-size: 1.2rem;
+        line-height: 0.7;
+    }
+    .section-title p{
+        font-size: 1rem;
+        line-height: 1.2;
+        margin: 20px 0;
+    }
+    .btn{
+        padding: 0.1rem 1rem;
+    }
+    .btn-primary{
+        font-size: 1.2rem;
+    }
+    .floor-text{
+        width: 100%;
+    }
+    .mb-1{
+        margin-bottom: 2px;
+    }
+    .other-services .other-service-img{
+        width: 50px;
+    }
+    .other-services-text h1{
+        font-size: 1rem;
+    }
+    .other-services-text{
+        height: 225px;
+    }
+    .other-services-text img{
+        width: 30px;
+    }
+    .other-services-text p{
+        font-size: 0.7rem;
+    }
+    .other-services-text .sm-btn{
+        padding: 0.3rem 1.5rem;
+        font-size: 0.8rem;
+        left: 0;
+    }
+    .certified-section .flex{
+        flex-wrap: wrap;
+    }
+    .certified-content{
+        flex-basis: 48%;
+    }
+    .review{
+        flex-basis: 48%;
+        margin-bottom: 80px;
+    }
+    #real-review .flex{
+        flex-wrap: wrap;
+    }
+    .address .footer-logo{
+        width: 150px;
+    }
+    .footer-text a{
+        font-size: 1.5rem;
+        color: #fff;
+    }
+    .footer-text p{
+        font-size: 0.9rem;
+    }
+    .social-icon img{
+        margin-right: 30px;
+    }
+
 }
-@media (min-width: 1400px) {
-    .container {
-        max-width: 1320px;
-        margin: 0 auto;
+@media (max-width:576px){
+    #navmenu{
+        background: #fff;
+        position: fixed;
+        top: 0;
+        right: 0;
+        height: 700px;
+        width: 200px;
+        padding: 0;
+        right: -280px;
+        transition: all 0.6s ease;
     }
-}
-@media (min-width: 2000px) {
-    .contaoner-xxl {
-        max-width: 1320px;
-        margin: 0 auto;
+    #navmenu ul{
+        text-align: left;
+        margin-left: 20px;
     }
-    #hero {
-        height: 500px;
+    #navmenu ul li{
+        display: block;
+        padding: 5px 0;
+    }
+    #navmenu ul li:hover{
+        background: transparent;
+    }
+    #navmenu ul li a{
+        font-size: 20px;
+        border: none;
+    }
+    #navmenu ul li:hover > a{
+        color: #000;
+    }
+    .fa-xmark{
+        font-size: 20px;
+    }
+    #mobile-menu{
+        padding: 0px;
+        font-size: 20px;
+    }
+    .fa-bars{
+        margin-left: 10px;
+    }
+    #navmenu ul #mobile-cross{
+        margin-top: 20px;
+        color: var(--primary);
+    }
+    #navmenu ul #mobile-cross, #mobile-menu{
+        display: block;
+        text-align: left;
+    }
+    .hero-text{
+        width: 500px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .hero-text .hero-head{
+        padding: 10px 0px;
+        margin-bottom: 15px;
+    }
+    .hero-text .hero-head h1{
+        font-size: 2.5rem;
+        line-height: 1.2;
+        margin-bottom: -5px;
+        margin-top: -10px;
+        font-weight: 900;
+    }
+    .hero-text .hero-head h3{
+        font-size: 1.15rem;
+        line-height: 1;
+        font-weight: 700;
+    }
+    .hero-text p{
+        font-size: 1rem;
+        font-weight: 500;
+        color:#201b17;
+    }
+    .section-header .title-icon{
+        width: 30px;
+        padding-bottom: 10px;
+    }
+    .section-header .title-line{
+        width: 150px;
+    }
+    .section-title h3{
+        font-size: 1rem;
+        line-height: 1;
+    }
+    .section-title p{
+        font-size: 0.7rem;
+    }
+    .btn {
+        padding: 0.3rem 1rem;
+        font-size: 1rem;
+    }
+    .floor-text{
+        width: 100%;
+    }
+    .flex{
+        flex-wrap: wrap;
+    }
+    .services{
+        flex-basis: 45%;
+    }
+    .services .sm-btn{
+        left: 25%;
+    }
+    .mb-1{
+        margin-bottom: 0px;
+    }
+    .other-services {
+        flex-basis: 100%;
+        margin-bottom: 3px;
+    }
+    .certified-content{
+        flex-basis: 45%;
+    }
+    .certified-list{
+        height: 300px;
+    }
+    .certified-list ul li{
+        font-size: 0.7rem;
+    }
+    .section-title h4{
+        font-size: 1rem;
+    }
+    .review{
+        flex-basis: 100%;
+        height: 300px;
+        margin-bottom: 80px;
+    }
+    .address{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .address .footer-logo{
+        width: 100px;
+    }
+    .footer-text a{
+        font-size: 1rem;
+    }
+    .footer-text p{
+        font-size: 0.8rem;
+        line-height: 1;
+    }
+    .flex-basis30{
+        flex-basis: 100%;
+    }
+    .brand{
+        flex-direction: row;
+        justify-content:space-evenly;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+    .brand-img-2{
+        margin-top: 0;
+    }
+    .footer-nav{
+        justify-content: space-evenly;
+    }
+    .social-icon{
+        text-align: center;
     }
 }
